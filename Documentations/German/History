@@ -1,0 +1,83 @@
+Version History
+
+Dev versions
+0.1	-	first version.
+0.1.1	-	work on Undo functionnality (undo for properties change, deleted object).
+		added function in "function list" to find the best constructor in function of properties
+		added BackGround window (konrad request)
+		added VTranslator class, it's used to make an Addon for loading project (manage file format)
+		added the fonction from the idea of m7m (06-10-2002)
+0.1.2	-	VCodeGenerator added, with this class it's possible to generate other langage.
+0.1.3	-	Cleaning some code because old code cause sometime crash of application.
+		i have resolve this by used more messenging ( and i have finded a very stupid bug).
+		"New Project" option, now work !
+0.1.4	-	Cut/Cop/Paste functions work.
+		Added BBox, BSlider, BStatusBar, BStringView, BTextView, BTextControl, BColorControl,  BChannelSlider objects.
+		Added BPNT properties to display BPoint type.
+		Add two functions in VObject class : LooperLock and LooperUnlock, these functions know if it's possible or not to lock/unlock the looper
+		Improve Tool "PaintToColor", and add new tool "AlignObjects".
+		Added in "Preference panel" an addon to set properties of "PainToColor" Tool.
+		Correction of bug when you edit a properties if you have scroll the list.
+0.1.5	-	Add Color Preferences to change colors use in MeTOS.
+		display in the objects list, if objectis derived or not.
+		Smooth effect in "About" go to see (special thx to misza).
+		Improve check of CS System file, but if you can't see functions in function list, delete "SystemHeaders.cs" in MeTOS setting folder.
+		Now we can see (in the AddOns window) the addons available or not in function of selected objet.
+		I added a function that check if a constructor is selected for all objects (when MeTOS start), and if not find the best for you and save it.
+		Correct bug when you delete objects (and for alone object), and another make alone object when you create new one just after delete.
+0.1.6		"Create New Project" is available, i have corrected thsi function, because it not work after change in "Delete".
+		Drop point problem when you paste an object is corrected.
+		I give rights to Brian Francis to modify code if it's needed to compile into PPC Box.
+0.1.7		Correct bug with Preference, when you save (you must reload before).
+		Now Tools menu work !
+		Undo function for copy/cut/paste complete work.
+		PPC version started by Brian Francis.
+		Add Screen preference, to set screen size you want to use MeTOS.
+		Add two new Addons Objects : BLisView, BOutlinedLisView,
+		This version turn to RC1 (but stay dev version 0.1.7, same as build number for me)
+0.1.8	-	Added Recent opened files menu.
+		new properties for Font named _fname
+		improve BStringView Object
+		correct the bug of _name not saved, and improve display of path for CPPGenerator.
+		correct a bug that give to Code Generator multiple value of the same propertie
+		Add new features into Properties Window, an editor to set code of an object into multiple langage
+		Add new preference to select the default Genertor you want use !
+		Add new object BPopUpMenu, use in BMenuField ( and make some change to manage this).
+		Correct a problem with scrollKey, move object only when window of object is active (not everytime) !
+		Correct a bug into the recent menu.
+0.1.9	-	Correct a bug into ExternalCode menu when no object selected.
+		Change preference management, to use aglobal pointer to file setting (resolve a bug about free memory problem).
+		Adding new tab and new features to manage dependencies (lib,headers and more).
+		Added Zeta Logo (thx to Bernd for give me logo).
+		Complete test into Dano and Zeta, MeTOS work on this version of BeOS.
+		Generating of makefile added (select into CPP preference), makefile are bsed on BeOS makefile v2.2.
+0.2.0	-	Update dependencies features, it's possible to edit path and MIME type.
+		Add tab into C++ Generator to see and edit generated Makefile.
+		Correct a bug that cause Tools menu not build for object Menu.
+		Correct a bug into properties convertion (see for ColorControl).
+		Add color_control_layout propertie.
+		Add a [Return] char in end of header file (see a warning in Zeta when compile).
+		Correct a problem that not redraw the text into parameters views if the window size change.
+		Add the Upgrader feature (thx to Marco Nelissen for his source-code)
+		Add Marco into about because taking his code for upgrader.
+		Correct a Bug that freeze MeTOS when loading saved project.
+		Correct a problem when loading project (see 2 Project object)
+		Add features to navigation into properties with [Tab] key and [Esc] key.
+		Add little Html documentation.
+		Progress on ExternalCode Features
+		Modify PostMessage to SendMessage to work on Zeta
+
+futur
+0.2.1	-	Need to find how to create a BScollBar control !!! I see a problem because mouse click is directely send to app_server,
+		i thnik i can use a view designed as ScrollBar, just draw as a scrollbar ? I try later when application work very well !
+
+
+Notes :
+05-10-2002		On Beshare Cube-ness give me an idea to make translator for the Project file format.
+06-10-2002		m7m give me an idea select the parent when you add a control, but not for view or window.
+11-11-2002		m7m request to see in objects list if the object is derived (this information can be see in Info tab).
+13-11-2002		mmu_man say that's difficult to see what we can create, for this i have updated the "AddOns" window.
+30-06-2003		Bernd give me info for updating makefile generator to give access of all properties (defines) of makefile.
+21-12-2003		aliensoldier (9705) [Sun Dec 21 21:25:26 2003 GMT, 1 day 12 minutes 14 seconds ago]:  2 other idea i got for MeTOS that don't seem mentioned so far:
+			a window snap option (relative to the screen like soundplay or relative to some associated other windows)
+			and a slide into screen option like dockbert.

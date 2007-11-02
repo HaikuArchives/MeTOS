@@ -1,0 +1,31 @@
+Message what=VOBJECT_ARCHIVE_MSG
+contient : les objets archivés
+	(pour chaque objet on a un message what = VOBJECT_ARCHIVE_MSG)
+	AddMessage(VOBJECT_ARCHIVE,Message)
+		le message d'archive d'un objet contient plusieurs elements
+		AddMessage(VOBJECT_SETTINGS,Message)				les settings de l'objet (parametres propre au type de l'objet)
+		AddMessage(VOBJECT_PROPERTIES,Message)				les proprietes propre a chacun des objets
+		AddMessage(VOBJECT_INFOS,Message)					les infos sur un type d'objet
+		AddMessage(VOBJECT_LOCKED_PROPERTIES,Message)		infos sur les proprietes bloquées a l'affichage
+		AddMessage(VOBJECT_NAME_AS_PROPERTIES,Message)		liste de correspondance entre le nom reel et le nom du constructeur
+		
+		a ce niveau on ajoute encore un message qui contient la correspondance de chaque valeures des proprietes
+		sous forme de chaine
+		Message what = VOBJECT_VALUE_AS_STRING_MSG
+		AddMessage(VOBJECT_VALUE_AS_STRING,Message)
+			AddString(<Nom de la propriete>,<Valeur>)			on ajoute ici pour chaque proprietes ca valeur sous forme de chaine
+
+		on ajoute encore le code externe
+		AddString(VOBJECT_EXTERNAL_CODE,String)				on ajoute la liste de code externe si il y en a un par rapport au generateur demandé
+
+		puis pour finir la liste des fonctions selectionné pour cet objet		
+		Message what = VOBJECT_FUNCTION_LIST_MSG
+		AddMessage(VOBJECT_FUNCTIONLIST,Message)		
+			AddString(FUNCTION_PARAMETER_TYPE,String)		type de retour de la fonction
+			AddString(FUNCTION_PARAMETER_NAME,String)		nom de la fonction
+			AddString(FUNCTION_PARAMETER_ARGS,String)		arguments
+			AddMessage(FUNCTION_PARAMETERS,Message)		Message contenant les parametres
+
+	on ajoute apres dans le premier les dependances
+	Message what = DEPENDENCIES_MSG
+	AddMessage(DEPENDENCIES_DATA,Message)

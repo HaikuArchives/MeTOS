@@ -1,0 +1,26 @@
+This little Text File would explain "how i can start with MeTOS"
+
+Just make step after step that is describe here :
+Start
+1 -	start MeTOS (the first start can take some time, some files are generated)
+2 -	you see 6 windows
+
+Create object
+3 -	click into the "Addons" window on the project item to select it
+4 -	after selected you have two choice, drag & drop the icon of project into the "Objects" window
+	or click on right button of the mouse to display the popup and select "new BProject"
+5 -	After this a project item appear into the "Objects" window
+6 -	Repeat this for all "Addons" you want to create
+	(Application, Window, View, etc ....)
+
+Generate Code
+7 -	After added all you want, go to menu File -> Generate -> and select the langage you want
+8 -	in the window Generator select "Start" button to start the generation of source-code
+9 -	After this you see item int the list display files would be created, to create them click on "Write file"
+	files are written into the path you see in BProject properties.
+
+That's a little how to start !
+
+Regards,
+
+Thanks from CKJ and all contibutors

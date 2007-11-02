@@ -1,0 +1,8 @@
+PREFERENCE_NAME|C++
+CPP_SETTINGS|Preferences
+CPP_MEMBERS|Caracteres des membres
+CPP_INDENT_1|Ecrire "{" apres le prototype
+CPP_INDENT_2|Ecrire "{" à la ligne suivante
+CPP_MAKEFILE|Generer le makefile
+CPP_EQUAL|Utiliser "=" au lieu de "=:" pour le makefile
+CPP_CS_FILE|Fichier CSSystem

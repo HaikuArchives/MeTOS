@@ -1,0 +1,8 @@
+PREFERENCE_NAME|Debug
+DEBUG_SETTINGS|Debug Einstellungen
+DEBUG_LEVEL_INFO|Information
+DEBUG_LEVEL_WARN|Warnung
+DEBUG_LEVEL_ERR|Fehler
+DEBUG_LEVEL_DEBUG|Debuging
+DEBUG_LEVEL|Debug Level
+DEBUG_NB_MESSAGES|Max. Anzahl an Nachrichten

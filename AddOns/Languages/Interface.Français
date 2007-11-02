@@ -1,0 +1,13 @@
+PREFERENCE_NAME|Interface
+APP_GUI_MANAGER|Parametres GUI
+APP_USE_GRID|Utiliser la grille
+APP_SNAP_TO_GRID|Coller à la grille
+APP_RESIZE_TO_GRID|Redimentionner à la grille
+APP_STEP_GRID|Pas
+APP_TOOLS|Outils
+APP_TOOLS_POPUP|Utiliser le menu Outils
+APP_TOOLS_BUTTONS|Outils par ligne
+APP_UNDOS|Undos
+APP_UNDOS_MAX|Nombre de Undos Max
+APP_RECENT|Fichiers Recents
+APP_RECENT_MAX|Taille du menu

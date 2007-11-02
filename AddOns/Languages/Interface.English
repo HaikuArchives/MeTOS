@@ -1,0 +1,13 @@
+PREFERENCE_NAME|Interface
+APP_GUI_MANAGER|GUI Manager
+APP_USE_GRID|Use grid
+APP_SNAP_TO_GRID|Snap to Grid
+APP_RESIZE_TO_GRID|Resize to grid
+APP_STEP_GRID|Grid step
+APP_TOOLS|Tools
+APP_TOOLS_POPUP|Use Tools PopUp-Menu
+APP_TOOLS_BUTTONS|Tools Buttons per line
+APP_UNDOS|Undos
+APP_UNDOS_MAX|Max Number of Undo
+APP_RECENT|Open Recent
+APP_RECENT_MAX|Max Recent menu Item

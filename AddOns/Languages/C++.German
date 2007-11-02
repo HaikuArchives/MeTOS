@@ -1,0 +1,8 @@
+PREFERENCE_NAME|C++
+CPP_SETTINGS|Generator Einstellungen
+CPP_MEMBERS|Members prepend string
+CPP_INDENT_1|"{" schreibe nach Prototype
+CPP_INDENT_2|"{" schreibe in nächste Linie
+CPP_MAKEFILE|Erstelle Makefile mit Generatordateien
+CPP_EQUAL|Benutze "=" anstatt "=:" im Makefile
+CPP_CS_FILE|CS System Dateipfad

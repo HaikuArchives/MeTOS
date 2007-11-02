@@ -1,0 +1,8 @@
+PREFERENCE_NAME|C++
+CPP_SETTINGS|Generator Settings
+CPP_MEMBERS|Members prepend string
+CPP_INDENT_1|"{" write after prototype
+CPP_INDENT_2|"{" write on next line
+CPP_MAKEFILE|Write makefille with generating files
+CPP_EQUAL|Use "=" instead of "=:" in makefile
+CPP_CS_FILE|CSSystem file path

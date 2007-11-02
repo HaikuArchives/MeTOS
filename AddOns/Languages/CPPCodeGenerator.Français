@@ -1,0 +1,14 @@
+GENERATOR_NAME|Generateur C++
+CPP_FILES_LIST|Liste des Fichiers
+CPP_OBJECT_NAME|Nom Objet
+CPP_FILES|Fichiers
+CPP_HEADER_CODE|Code En-Tête...
+CPP_SOURCE_CODE|Code Source...
+CPP_START|Démarrer
+CPP_STOP|Arreter
+CPP_MAKEFILE|Makefile...
+CPP_WRITE_FILES|Ecrires
+CPP_ITEM_MESSAGE|Pas de fichier generé...
+CPP_LIST_MESSAGE|Pas de Fichiers Generés
+CPP_MENU_HEADER|Code En-Tête
+CPP_MENU_SOURCE|Code Source

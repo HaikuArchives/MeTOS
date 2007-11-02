@@ -1,0 +1,8 @@
+PREFERENCE_NAME|Erreur
+DEBUG_SETTINGS|Parametres d'Erreurs
+DEBUG_LEVEL_INFO|Information
+DEBUG_LEVEL_WARN|Alerte
+DEBUG_LEVEL_ERR|Erreur
+DEBUG_LEVEL_DEBUG|Debug
+DEBUG_LEVEL|Niveau d'erreur
+DEBUG_NB_MESSAGES|Nombre Max de message

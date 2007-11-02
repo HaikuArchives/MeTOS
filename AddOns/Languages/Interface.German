@@ -1,0 +1,13 @@
+PREFERENCE_NAME|Oberfläche
+APP_GUI_MANAGER|GUI Manager
+APP_USE_GRID|Benutze Gitter
+APP_SNAP_TO_GRID|Gehe auf Gitter
+APP_RESIZE_TO_GRID|Zurückstellen auf Gitter
+APP_STEP_GRID|Gitterstufe
+APP_TOOLS|Werkzeuge
+APP_TOOLS_POPUP|Benutze Werkzeug PopUp Menü
+APP_TOOLS_BUTTONS|Werkzeug Buttons je Linie
+APP_UNDOS|Rückgängig
+APP_UNDOS_MAX|Max Rückgängig
+APP_RECENT|Öffne Vorherige
+APP_RECENT_MAX|Max Vorherige in Menue

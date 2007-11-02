@@ -1,0 +1,36 @@
+How To build MeTOS
+
+Be sure you have downloaded all files :
+http://perso.wanadoo.fr/cvincent/logiciels/binaires/MeTOS-src.zip
+http://perso.wanadoo.fr/cvincent/logiciels/binaires/CS-headers.zip
+http://perso.wanadoo.fr/cvincent/logiciels/binaires/CSLib.so.zip
+http://perso.wanadoo.fr/cvincent/logiciels/binaires/CShare.zip
+
+after this, you must place some folder in special place :
+see this exemple :
+
+i have a folder named "Source" where i copy some source-code,
+unzip MeTOS-src.zip here, you have after a MeTOS folder, good
+in second time unzip CShare.zip here you obtain a CShare folder here
+at this time you have into Source :
+Source	-->	MeTOS
+		-->	CShare
+
+here create a folder "dontworry" here, you have
+Source	-->	MeTOS
+		-->	CShare
+		-->	dontworry
+
+into dontworry folder unzip CS-headers.zip that create a ClassStructure folder
+with CS-Headers into this.
+Source	-->	MeTOS
+		-->	CShare
+		-->	dontworry	-->	ClassStructure
+
+And the last !!!
+unzip into MeTOS/lib the CSLib.so.zip
+Source	-->	MeTOS	-->	lib	-->	CSlib.so
+		-->	CShare
+		-->	dontworry	-->	ClassStructure
+
+ok, all is done you can start MeTOS.proj and compile :))

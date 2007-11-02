@@ -1,0 +1,2 @@
+- ajouter de quoi parametrer l'url pour la MAJ
+- ajouter les flag B_FOLLOW_ALL_SIDES
